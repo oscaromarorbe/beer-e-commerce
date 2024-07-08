@@ -1,0 +1,150 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.user-info span {
+    font-size: 14px;
+    color: #666;
+}
+
+.user-info h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.category-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.category.active,
+.category:hover {
+    background-color: #ffc107;
+    color: white;
+    border-color: orange;
+}
+
+.category img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.see-all {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.popular-section {
+    margin-bottom: 20px;
+}
+
+.popular-section h2 {
+    margin: 0 0 10px 0;
+}
+
+.beer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.beer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.beer-image {
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.beer-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    margin: 10px 0;
+}
+
+.add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: darkorange;
+}
