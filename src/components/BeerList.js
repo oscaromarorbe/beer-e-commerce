@@ -40,7 +40,7 @@ const BeerList = ({ products }) => {
             <header className="header">
                 <div className="menu-icon">☰</div>
                 <div className="user-info">
-                    <img src="/icons/user-icon.png" alt="User" className="user-image" />
+                    <img src="/icons/user-icon.jpg" alt="User" className="user-image" />
                     <div>
                         <span>Hi Mr. Michael,</span>
                         <h1>Welcome Back!</h1>

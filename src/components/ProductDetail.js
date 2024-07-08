@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './ProductDetail.css';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDetail = ({ product }) => {
     const [skus, setSkus] = useState(product.skus);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchStockAndPrice = async () => {
@@ -26,7 +28,7 @@ const ProductDetail = ({ product }) => {
     return (
         <div className="product-detail">
             <div className="detail-header">
-                <button className="back-button">←</button>
+                <button className="back-button" onClick={() => navigate("/")}>←</button>
                 <h1>Detail</h1>
                 <button className="menu-button">⋮</button>
             </div>
